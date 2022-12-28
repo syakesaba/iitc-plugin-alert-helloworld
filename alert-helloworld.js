@@ -8,8 +8,10 @@
 // @downloadURL    https://raw.githubusercontent.com/syakesaba/iitc-plugin-alert-helloworld/main/alert-helloworld.js
 // @description    HelloWorld for you all.
 // @author         syakesaba
+// @match          https://*.ingress.com/*
 // @match          https://*.ingress.com/intel*
 // @match          https://*.ingress.com/mission/*
+// @include        https://*.ingress.com/*
 // @include        https://*.ingress.com/intel*
 // @include        https://*.ingress.com/mission/*
 // @grant          none
