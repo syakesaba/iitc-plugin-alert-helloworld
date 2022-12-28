@@ -1,14 +1,17 @@
 // ==UserScript==
-// @author         syakesaba
+// @id             alert-helloworld
 // @name           IITC plugin: alert-HelloWorld
 // @category       Debug
-// @version        0.0.1
-// @description    HelloWorld for you all.
-// @id             alert-helloworld
+// @version        0.0.1.20220000
 // @namespace      https://github.com/IITC-CE/ingress-intel-total-conversion
 // @updateURL      https://raw.githubusercontent.com/syakesaba/iitc-plugin-alert-helloworld/main/alert-helloworld.js
 // @downloadURL    https://raw.githubusercontent.com/syakesaba/iitc-plugin-alert-helloworld/main/alert-helloworld.js
-// @match          https://intel.ingress.com/*
+// @description    HelloWorld for you all.
+// @author         syakesaba
+// @match          https://*.ingress.com/intel*
+// @match          https://*.ingress.com/mission/*
+// @include        https://*.ingress.com/intel*
+// @include        https://*.ingress.com/mission/*
 // @grant          none
 // ==/UserScript==
 
